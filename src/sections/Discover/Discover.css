@@ -55,8 +55,6 @@
   .discover-left {
     padding: 0 4rem;
   }
-  .discover-right {
-  }
 }
 @media only screen and (max-width: 600px) {
   .discover-card {

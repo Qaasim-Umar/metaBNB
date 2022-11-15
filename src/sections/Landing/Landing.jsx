@@ -1,6 +1,6 @@
 import React from 'react'
 import './Landing.css'
-import cards from '../../assets/Group1.svg'
+import cards from '../../assets/Group1.png'
 import metamask from '../../assets/metamask.svg'
 import mbtoken from '../../assets/mbtoken.svg'
 import opensea from '../../assets/opensea.svg'

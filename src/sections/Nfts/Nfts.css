@@ -17,10 +17,11 @@
   .nfts-grid {
     grid-template-columns: 1fr 1fr;
     place-items: center;
+  }
     .nfts-h1 {
         font-size: 32px;
     }
-  }
+  
 }
 @media only screen and (max-width: 600px) {
   .nfts-grid {

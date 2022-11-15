@@ -1,6 +1,6 @@
 .submenu {
   display: flex;
-  max-width: 1200px;
+  max-width: 1180px;
   margin: 8rem auto 3rem auto;
   justify-content: space-around;
   align-items: center;
@@ -14,15 +14,6 @@
   list-style: none;
   grid-template-columns: repeat(8, 1fr);
   gap: 4rem;
-}
-li {
-  width: 0%;
-  border-bottom: #062bff 1px solid;
-  transition: width 700ms;
-}
-
-li:hover {
-  width: 100%;
 }
 .search {
   border: 1px solid #b4b4b4;
