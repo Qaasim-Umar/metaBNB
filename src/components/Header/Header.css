@@ -1,0 +1,76 @@
+.header-card {
+  margin: 2rem auto;
+  padding: 0 2rem;
+  max-width: 1285px;
+  display: flex;
+  font-family: "Red Rose", cursive;
+  position: relative;
+}
+.logo {
+  margin: 0 7rem 0 1rem;
+}
+.nav {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.nav-links a {
+  margin: 0.5rem;
+  font-size: 20px;
+  color: #434343;
+  text-decoration: none;
+  transition: all 700ms;
+}
+.nav-links a:hover {
+  color: rgb(0, 0, 0, 0.5);
+}
+.header-icons {
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  .hidden {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+  .header-icons {
+    display: block;
+  }
+  .header-icons button {
+    font-size: 2rem;
+    line-height: 1rem;
+    border: none;
+    background: #ffffff;
+  }
+  .nav-links a {
+    display: block;
+    padding: 1rem;
+  }
+  .header-card {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav {
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: #ffffff;
+    position: absolute;
+    text-align: center;
+    top: 4rem;
+    padding-bottom: 9rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .nav.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
+@media only screen and (max-width: 992px) {
+  .header-card {
+  }
+  #header-logo {
+    width: 80%;
+  }
+}

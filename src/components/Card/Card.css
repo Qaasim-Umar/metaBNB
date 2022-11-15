@@ -1,0 +1,23 @@
+.name-details {
+  display: flex;
+  justify-content: space-between;
+}
+.name-p2 {
+  font-weight: 700;
+}
+
+.availability-details {
+  display: flex;
+  justify-content: space-between;
+}
+.card-container {
+  padding: 0.5rem;
+  font-size: 12px;
+  width: 292px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border: 1px solid #d7d7d7;
+  border-radius: 15px;
+}
+.card-container #card-image {
+  width: 100%;
+}

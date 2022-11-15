@@ -1,0 +1,12 @@
+.connect-btn {
+  font-family: "Red Rose", cursive;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border-radius: 10px;
+  border: none;
+  width: 170px;
+  color: #ffffff;
+  height: 48px;
+}
+.connect-btn:hover {
+  background: linear-gradient(145deg, #d733a3 41.45%, #c73599 55.45%);
+}

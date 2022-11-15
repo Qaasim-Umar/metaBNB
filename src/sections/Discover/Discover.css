@@ -1,0 +1,68 @@
+.discover-card {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border: 1px solid #000000;
+  height: auto;
+  width: auto;
+  display: flex;
+  margin-top: 3rem;
+  padding: 4rem;
+}
+.discover-left {
+  flex: 1 1 40%;
+}
+.discover-right {
+  flex: 1 1 60%;
+}
+.discover-right > img {
+  width: 80%;
+}
+.discover-h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+.discover-p {
+  font-size: 18px;
+  line-height: 35px;
+}
+#learn-more {
+  background: white;
+  color: #a02279;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 2rem;
+}
+.discover-left {
+  color: #ffffff;
+  display: flex;
+  padding-left: 7rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.discover-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 992px) {
+  .discover-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+  .discover-right > img {
+    height: 30rem;
+  }
+  .discover-left {
+    padding: 0 4rem;
+  }
+  .discover-right {
+  }
+}
+@media only screen and (max-width: 600px) {
+  .discover-card {
+    padding: 2rem 0;
+  }
+  .discover-right > img {
+    height: 24rem;
+  }
+}
