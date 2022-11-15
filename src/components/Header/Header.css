@@ -67,9 +67,9 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 600px) {
  
   #header-logo {
-    width: 80%;
+    width: 100%;
   }
 }
